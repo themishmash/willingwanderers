@@ -20,7 +20,7 @@ body {
 
 
 /* phone design  */
-/* @media only screen and (max-width: 500px) {
+@media only screen and (max-width: 500px) {
   .navbar-link {
     font-size: 12px;
     height: 2%;
@@ -34,8 +34,12 @@ body {
     font-size: 20px;
   }
 
+  body {
+    overflow: scroll;
+  }
 
-} */
+
+}
 
 
 
