@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif|Varela+Round&display=swap');
+@import "./navbar.css";
+@import "./herotext.css";
+@import "./hiketext.css";
+
+body {
+  margin: 0px;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../photos/kieren_andrews_aireys.jpg"); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  font-family:  'Varela Round', sans-serif;
+  height: 100vh;
+  overflow: hidden;
+}
+
+
+
+
+
+
+/* phone design  */
+/* @media only screen and (max-width: 500px) {
+  .navbar-link {
+    font-size: 12px;
+    height: 2%;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+  
+  h2 {
+    font-size: 20px;
+  }
+
+
+} */
+
+
+
+/* really small phone */
+/* @media only screen and (max-width: 320px) {
+  .navbar-link {
+    font-size: 12px;
+    height: 2%;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  
+
+} */
