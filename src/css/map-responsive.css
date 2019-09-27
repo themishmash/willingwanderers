@@ -1,0 +1,97 @@
+/* .map-responsive{
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position:relative;
+  height:0;
+}
+.map-responsive iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+} */
+
+/* really small phone */
+@media only screen and (max-width: 414px) {
+  body {
+    overflow: hidden;
+  }
+
+  .navbar-link {
+    font-size: 12px;
+    height: 2%;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+  
+  
+  .hike-text {
+    width: 100%;
+  }
+
+  .map-responsive iframe {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+  }
+
+}
+
+@media only screen and (max-width: 375px) {
+  body {
+    overflow: hidden;
+  }
+
+  .navbar-link {
+    font-size: 12px;
+    height: 2%;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  .map-responsive iframe {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+  }
+
+}
+
+@media only screen and (max-width: 320px) {
+  body {
+    overflow: hidden;
+  }
+
+  .navbar-link {
+    font-size: 12px;
+    height: 2%;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  .map-responsive iframe {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+  }
+
+}

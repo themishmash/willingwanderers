@@ -2,6 +2,7 @@
 @import "./navbar.css";
 @import "./herotext.css";
 @import "./hiketext.css";
+@import "./map-responsive.css";
 
 body {
   margin: 0px;
@@ -21,10 +22,7 @@ body {
 
 /* phone design  */
 @media only screen and (max-width: 500px) {
-  .navbar-link {
-    font-size: 12px;
-    height: 2%;
-  }
+  
 
   h1 {
     font-size: 30px;
@@ -34,9 +32,9 @@ body {
     font-size: 20px;
   }
 
-  body {
+  /* body {
     overflow: scroll;
-  }
+  } */
 
 
 }
