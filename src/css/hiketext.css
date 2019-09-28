@@ -1,21 +1,26 @@
-.hike-text {
-  display: flex;
-  flex-direction: column;
-  /* margin-left: 5%; */
-  color: white;
-  font-size: 18px;
-  font-family: 'Noto Serif', serif;
-  width: 50vw;
-  height: calc(100vh - 10%);
-}
-
 .hike-details {
   display: flex;
+  flex-direction:column;
   margin-left: 5%;
   /* width: 50vw;
   height: calc(100vh - 10%); */
   /* background-color: rgba(0, 0, 0, 0.219); */
+  width: 95vw; 
+  height: calc(100vh - 10%);
 }
+
+.hike-text {
+  display: flex;
+  flex-direction: column;
+ 
+  color: white;
+  font-size: 18px;
+  font-family: 'Noto Serif', serif;
+  width: 90vw;
+  
+}
+
+
 
 .map {
   display: block;
