@@ -19,30 +19,10 @@
 }
 
 /* really small phone */
-@media only screen and (max-width: 414px) {
-  body {
-    height: 100%;
-    overflow: hidden;
-    /* max-height: 100% !important;  */
-  }
+@media only screen and (max-width: 500px) {
 
-  .navbar-link {
-    font-size: 12px;
-    height: 2%;
-  }
-
-  h1 {
-    font-size: 30px;
-  }
-
-  h2 {
-    font-size: 20px;
-  }
   
-  
-  .hike-text {
-    width: 100%;
-  }
+
 
   /* .map-responsive iframe {
     height: 100%;
@@ -67,11 +47,11 @@
     font-size: 20px;
   }
 
-  .map-responsive iframe {
+  /* .map-responsive iframe {
     height: 100%;
     width: 100%;
 
-  }
+  } */
 
 }
 

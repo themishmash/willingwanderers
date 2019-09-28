@@ -43,6 +43,19 @@ nav a:hover {
 }
 
 /* really small phone */
+@media only screen and (max-width: 500px) {
+  nav {
+    width: 100vw;
+    overflow: hidden;
+  }
+
+  .navbar-link {
+    font-size: 12px;
+    height: 2%;
+  }
+  
+}
+
 @media only screen and (max-width: 414px) {
   nav {
     width: 100vw;
@@ -50,3 +63,4 @@ nav a:hover {
   }
   
 }
+
