@@ -1,7 +1,7 @@
 .hero {
   display: flex;
   /* position: absolute; */
-  width: 100vw;
+  width: 80vw;
   /* top: 20%; */
   left: 5%;
   margin-left: 5%;
@@ -16,7 +16,8 @@
 
 .hero-text-box {
   /* position: absolute; */
-  width: 100vw;
+  width: 80vw;
+  height: 30%;
   /* top: 20%; */
   left: 5%;
   margin-left: 5%;

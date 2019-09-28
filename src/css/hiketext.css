@@ -5,13 +5,15 @@
   color: white;
   font-size: 18px;
   font-family: 'Noto Serif', serif;
+  width: 50vw;
+  height: calc(100vh - 10%);
 }
 
 .hike-details {
   display: flex;
   margin-left: 5%;
-  width: 80vw;
-  height: calc(100vh - 10%);
+  /* width: 50vw;
+  height: calc(100vh - 10%); */
   /* background-color: rgba(0, 0, 0, 0.219); */
 }
 
@@ -21,9 +23,7 @@
 
 @media only screen and (max-width: 500px) {
   
-  .hike-text {
-    width: 100%;
-  }
+  
 
   /* .map-responsive iframe {
     height: 100%;
