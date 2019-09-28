@@ -11,7 +11,7 @@
   display: flex;
   margin-left: 5%;
   width: 80vw;
-  height: 80vh;
+  height: calc(100vh - 10%);
   /* background-color: rgba(0, 0, 0, 0.219); */
 }
 

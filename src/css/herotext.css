@@ -38,3 +38,21 @@ h2 {
   margin-bottom: 0.5%;
 }
 
+/* phone design  */
+@media only screen and (max-width: 500px) {
+  
+
+  h1 {
+    font-size: 30px;
+  }
+  
+  h2 {
+    font-size: 20px;
+  }
+
+  /* body {
+    overflow: scroll;
+  } */
+
+
+}
